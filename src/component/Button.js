@@ -4,14 +4,17 @@ import FilmBox from "../containers/FilmBox";
 
 class Button extends Component {
 
-    render() {
-        const {
+    constructor(props){
+        super(props);
 
-        } = this.props;
+    }
+    render() {
+
 
         return (
-            <button className={Button}>
-                {content}
+            <button className="Button" onClick=>
+                ></a>
+                View more Upcoming Releases
             </button>
         )
     }
